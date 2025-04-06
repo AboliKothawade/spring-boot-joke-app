@@ -10,7 +10,6 @@ public class JokeServiceImpl implements JokeService {
 	private final ChuckNorrisQuotes chunckNorrisQuotes;
 	
 	public JokeServiceImpl(ChuckNorrisQuotes chunckNorrisQuotes) {
-		super();
 		this.chunckNorrisQuotes = chunckNorrisQuotes;
 	}
 
